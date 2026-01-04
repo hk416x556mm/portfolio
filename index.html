@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Student Portfolio</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <header>
-         <h1 id="name">Student Name</h1>
-         <img src="profile.jpg" alt="Profile Picture" id="profile-img">
-         <p id="course-year">Course - Year</p>
-         <button id="theme-toggle">Switch Theme</button>
-      </header>
-      <section id="achievements">
-         <h2>Achievements/Certifications</h2>
-         <ul>
-            <li>Achievement 1</li>
-            <li>Achievement 2</li>
-            <li>Achievement 3</li>
-         </ul>
-      </section>
-      <section id="projects">
-         <h2>Previous Projects</h2>
-         <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-         </ul>
-      </section>
-      <script src="script.js"></script>
-   </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurt Gadingan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="card">
+    <img src="profile.jpg" alt="Profile Picture" id="profile-img">
+    <h1 id="name">Kurt Arnyle C. Gadingan</h1>
+    <p id="course-year">Student • Aspiring Developer</p>
+    <button id="theme-toggle">🌙 Toggle Theme</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        I’m a student interested in programming, technology, and building things that work.
+        This portfolio showcases my projects and progress.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project One</h3>
+          <p>Short description of what this project does.</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+          <h3>Project Two</h3>
+          <p>Short description of what this project does.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Certification / Award</li>
+        <li>Competition / Course</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Kurt Gadingan • GitHub: hk416x556mm</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
