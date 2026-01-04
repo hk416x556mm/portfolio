@@ -1,2 +1,2 @@
 # portfolio
-M1|FA1 Portfolio Taskby Gadingan, Kurt
+M1|FA1 Portfolio Task by Gadingan, Kurt
